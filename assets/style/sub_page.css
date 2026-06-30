@@ -1,0 +1,38 @@
+.main_grid
+{
+    display: grid;
+    grid-template-rows: 80px auto 50px;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.return_section
+{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    height: 100%;
+}
+
+.centered_section
+{
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+p
+{
+    max-width: 550px;
+}

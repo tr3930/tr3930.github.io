@@ -1,0 +1,15 @@
+.content_container
+{
+    max-width: 800px;
+    min-height: 600px;
+}
+
+.content_grid
+{
+    display: grid;
+    grid-template-rows: 150px 300px;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+

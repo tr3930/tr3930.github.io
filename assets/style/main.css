@@ -21,8 +21,6 @@ body
 {
     background-color: #ffffff;
     border-radius: 12px;
-    max-width: 800px;
-    min-height: 600px;
     padding: 50px;
 }
 
@@ -62,6 +60,8 @@ body
     grid-row-end: 2;
     height: 100%;
 }
+
+
 
 .nav_list 
 {
